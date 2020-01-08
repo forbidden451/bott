@@ -91,7 +91,7 @@ CURRENCY_API = os.environ.get("CURRENCY_API", None)
 GDRIVE_FOLDER = os.environ.get("GDRIVE_FOLDER", None)
 
 # pylint: disable=invalid-name
-bot = TelegramClient("userbot", API_KEY, API_HASH)
+bot = TelegramClient("userbot", 1014227, 0c22b1f67671682ae2dc4e4f81b6f1e8)
 
 
 async def check_botlog_chatid():
